@@ -33,3 +33,4 @@ dependencies:
     - trame
     - autopep8
     - wget
+    - nbgitpuller

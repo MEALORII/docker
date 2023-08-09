@@ -8,3 +8,6 @@ libxft2
 libxinerama1
 libgl1-mesa-glx 
 xvfb
+build-essential
+make
+cmake
