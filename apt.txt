@@ -1,0 +1,10 @@
+libglx-mesa0
+libglx0
+libgl1
+libglu1-mesa
+libgl1-mesa-glx
+libxcursor-dev
+libxft2
+libxinerama1
+libgl1-mesa-glx 
+xvfb

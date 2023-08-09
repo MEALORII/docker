@@ -1,0 +1,4 @@
+#!/bin/bash
+git clone https://gitlab.enpc.fr/navier-fenics/x_mec431.git
+mv x_mec431 MEC431_PC9
+exec "$@"

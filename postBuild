@@ -1,0 +1,10 @@
+git clone https://github.com/thelfer/tfel.git
+cd tfel
+./configure --enable-python-bindings --enable-python
+make
+make install
+cd ..
+pip install --upgrade gmsh
+pip install nbgitpuller
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+export PYVISTA_TRAME_SERVER_PROXY_PREFIX="$JUPYTERHUB_SERVICE_PREFIX/proxy/"

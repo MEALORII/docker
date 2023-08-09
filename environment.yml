@@ -1,0 +1,35 @@
+name: fenicsx-0.6.0
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - fenics-dolfinx=0.6.0
+  - matplotlib
+  - numba 
+  - sympy 
+  - scipy 
+  - pip
+  - gmsh
+  - python-gmsh
+  - pythreejs
+  - boost
+  - boost-cpp
+
+  - pip:
+    - ipython 
+    - black  
+    - flake8 
+    - autoflake  
+    - pyaml
+    - k3d
+    - ipywidgets
+    - imageio
+    - ipyvtklink
+    - json5
+    - jupyterlab==3.4.7
+    - pyvista
+    - panel
+    - trame
+    - autopep8
+    - wget
