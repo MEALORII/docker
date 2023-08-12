@@ -1,4 +1,7 @@
 #!/bin/bash
-git clone https://gitlab.enpc.fr/navier-fenics/x_mec431.git
-mv x_mec431 MEC431_PC9
+export PATH=$PATH:~/.local/bin
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:~/.local/lib
+export PYTHONPATH=${PYTHONPATH}:~/.local/lib/python3.9/site-packages
+cd shared
+jupyter lab --ip 0.0.0.0 --no-browser --allow-root
 exec "$@"

@@ -11,3 +11,4 @@ xvfb
 build-essential
 make
 cmake
+gcc
