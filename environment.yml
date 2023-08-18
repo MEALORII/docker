@@ -9,6 +9,7 @@ dependencies:
   - numba 
   - sympy 
   - scipy 
+  - scikit-learn
   - pip
   - gmsh
   - python-gmsh
